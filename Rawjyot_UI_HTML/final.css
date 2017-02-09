@@ -1,4 +1,6 @@
 .header {
+  margin-right: 100px;
+  margin-left: 70px;
   border-bottom: 1px solid #D3D3D3;
   height: 235px; }
 
@@ -80,6 +82,8 @@ a {
   background-color: blue; }
 
 .footerbase {
+  margin-right: 100px;
+  margin-left: 70px;
   background-color: #00008B;
   height: 70px;
   display: flex;
@@ -99,8 +103,8 @@ a {
 .footparent {
   height: 400px;
   display: flex;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 81px;
+  margin-right: 0px;
   justify-content: center; }
 
 .footlistcommon {

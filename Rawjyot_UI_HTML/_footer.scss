@@ -1,5 +1,7 @@
 
 .footerbase{
+      margin-right: 100px;
+    margin-left: 70px;
     background-color: $dark_blue;
     height: 70px;
     display: flex;
@@ -27,9 +29,9 @@
 .footparent{
     height: 400px;
     display: flex;
-    margin-left:10px;
-    margin-right: 20px; 
-    justify-content:center;
+    margin-left: 81px;
+    margin-right: 0px;
+    justify-content: center;
 }
 
 .footlistcommon
