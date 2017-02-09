@@ -1,0 +1,103 @@
+.header{
+    
+    border-bottom: 1px solid $light_gray;
+    height: 235px;
+}
+
+.common {
+	height :180px;
+	font-size: 140%;
+	font-family:$font;
+
+}
+
+.ulDesign
+ {
+     padding-left: 80px;
+list-style:none; 
+display:flex;
+justify-content : space-around
+ }
+
+.ullinkDesign
+ {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.logo {
+	height:140px;
+	padding:40px 0px 0px 50px;
+	width:150px;
+}
+.mp{
+	color: $light_blue;
+    font-size: 150%;
+    padding: 107px 62px 0 77px;
+    width: 100px;
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color:grey; 
+}
+
+.null{
+	width:650px;
+}
+
+.links{
+       width: 570px;
+    padding: 87px 0px 0px 317px;
+    height: 80px;
+}
+.belowparent
+{
+	height:42px;
+	display: flex;
+}
+.links2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 546px;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.null2{
+	  width: 500px;
+}
+.input{
+    font-family:$font;
+    width: 609px;
+    padding-right: 26px;
+    padding-left: 136px;
+    height: 35px;
+    padding-top: 20px;
+    color: $light_gray;
+    display: flex;
+	
+}
+
+.lidesign
+{
+
+    padding-right: 23px;
+    padding-left: 12px;
+
+}
+
+
+.Button
+{
+
+border:  0.2px solid $light_gray;
+height: 27px;
+border-radius: 4px;
+color:$light_gray;
+width:80px; 
+background-color:blue; 
+}

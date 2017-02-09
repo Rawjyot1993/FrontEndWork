@@ -1,0 +1,154 @@
+.header {
+  border-bottom: 1px solid #D3D3D3;
+  height: 235px; }
+
+.common {
+  height: 180px;
+  font-size: 140%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.ulDesign {
+  padding-left: 80px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around; }
+
+.ullinkDesign {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; }
+
+.logo {
+  height: 140px;
+  padding: 40px 0px 0px 50px;
+  width: 150px; }
+
+.mp {
+  color: #000033;
+  font-size: 150%;
+  padding: 107px 62px 0 77px;
+  width: 100px;
+  height: 60px; }
+
+a {
+  text-decoration: none;
+  color: grey; }
+
+.null {
+  width: 650px; }
+
+.links {
+  width: 570px;
+  padding: 87px 0px 0px 317px;
+  height: 80px; }
+
+.belowparent {
+  height: 42px;
+  display: flex; }
+
+.links2 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 546px;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.null2 {
+  width: 500px; }
+
+.input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 609px;
+  padding-right: 26px;
+  padding-left: 136px;
+  height: 35px;
+  padding-top: 20px;
+  color: #D3D3D3;
+  display: flex; }
+
+.lidesign {
+  padding-right: 23px;
+  padding-left: 12px; }
+
+.Button {
+  border: 0.2px solid #D3D3D3;
+  height: 27px;
+  border-radius: 4px;
+  color: #D3D3D3;
+  width: 80px;
+  background-color: blue; }
+
+.footerbase {
+  background-color: #00008B;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start; }
+
+.common2 {
+  width: 250px;
+  text-align: left; }
+
+.inputedit {
+  border: 0.1px solid lightgrey;
+  height: 27px;
+  border-radius: 4px;
+  width: 542px;
+  color: lightgray; }
+
+.footparent {
+  height: 400px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+  justify-content: center; }
+
+.footlistcommon {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 0 0 0px;
+  list-style-type: none;
+  color: #D3D3D3; }
+
+.footlistheading {
+  padding: 8px 0 8px 0;
+  color: #00008B;
+  font-size: 110%; }
+
+.elementscommon {
+  padding: 6px 0 6px 0;
+  font-size: 80%; }
+
+.copyright {
+  padding-left: 174px;
+  width: 310px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 26px;
+  color: white; }
+
+.sociallogo {
+  padding-top: 8px;
+  padding-left: 101px;
+  width: 359px; }
+
+.logoss {
+  width: 50px;
+  height: 50px; }
+
+.partners {
+  width: 431px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 26px;
+  color: white;
+  display: flex;
+  justify-content: space-between; }
+
+.bodyedit {
+  height: 1000px; }
+
+.parent {
+  height: 180px;
+  display: flex; }
+
+/*# sourceMappingURL=final.css.map */
