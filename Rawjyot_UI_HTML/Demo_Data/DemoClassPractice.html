@@ -1,0 +1,93 @@
+<html>
+<head>
+
+<title>Training</title>
+<script src="jquery-3.1.1.min.js"></script>
+<style type="text/css">
+	
+
+.btn
+{
+
+width: 100px;
+height: : 100px;
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<h1>Welcome to class!</h1>
+
+
+
+<button>Click Me</button>
+<div  id="msg"></div>
+
+
+<script>
+	
+var count=0;
+
+/*$('button').click(function(){
+$('#msg').html("OK,you clicked me");
+$('#msg').append("<br/><button>New Button</button>"+(++count));
+*/
+/*
+
+$('button').click(function()
+{
+
+      $('#msg').append(" <br/><button class='btn'>Click Me</button>OK");
+
+
+});
+ 
+$('body').on('click','.btn',function()
+{
+
+
+ $('#msg').append(" <br/><button class='btn'>Click Me</button>OK");
+  
+
+
+});
+*/
+
+
+
+$('document').ready(function(){
+
+
+$('button').click(function(){
+
+$('#msg').append(" <br/><button class='btn'>Click Me</button>OK");
+
+}).mousemove(function(){
+
+$(this).attr('style','background:#000');
+
+})
+
+
+
+})
+
+
+
+});
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

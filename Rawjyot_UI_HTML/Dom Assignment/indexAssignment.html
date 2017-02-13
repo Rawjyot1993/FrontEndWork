@@ -1,0 +1,102 @@
+<html>
+<head>
+<link rel="stylesheet" href="assignment.css" type="text/css" >
+<script type="text/javascript" src="validations.js"></script>
+<title>Home Page</title>
+</head>
+  <body> 
+   <header>
+      
+      <div class="header">
+
+		   <ul class="header-ul-left">
+
+		      <li class ="header-ul-left-li_left">
+              <img height="22px" width="22px" src="logos/appdirect_logo.png"></li>
+		      <li>MyApps</li>
+		      <li>Marketplace</li>
+
+		   </ul>
+		 
+		   <ul class="header-ul-right">
+                <li id="droplist" class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">Account</a>
+                <a href="#">Log Out</a>
+                </li>  
+		      <li>Account</li>
+		      <li class="dropbtn" onclick="mydropdownprofile()">Rawjyot Singh</a>
+                
+             </li>
+		   </ul>
+
+       <div>
+    </header>
+    
+<div class="body">
+    <form name ="Registration_Form"  method="POST"  >
+    <div class="body_left">
+
+     <h1 class="body_left_h">Registration Page</h1>
+
+     <ul class="body_left_ul_left">
+        <pre>
+
+        <li class="body_left_ul_left_li_left">First Name                <input id="fname" type="text" name="firstname" required ></li>
+        <li class="body_left_ul_left_li_left">Last Name                <input id="lname" type="text" name="lastname"></li>
+        <li class="body_left_ul_left_li_left">Address(P)               <input type="text" name="paddress" required></li>
+                                <input  class ="body_left_ul_left_inputedit" type="checkbox" name="checkboxtype" onclick="fillAddress(this.form)"> 
+        <li class="body_left_ul_left_li_left">Address(C)               <input id="cadd" type="text" name="caddress" required></li>
+        <li class="body_left_ul_left_li_left">Email-id                    <input type="text" name="email" required></li>
+        <li class="body_left_ul_left_li_left">Phone No                 <input type="text" name="ph_no" required></li>
+        <li class="body_left_ul_left_li_left">Password                 <input id="pass" type="password" name="password" required></li>
+        <li class="body_left_ul_left_li_left">Confirm Password   <input id="cpass" type="password" name="cpassword" onblur="enablebutton()" required></li>
+        <li class="body_left_ul_left_li_left"><input class="reset_color "type="reset" name="Reset" value="Reset">      <input class="drops" type="button"  id ="hack" name="Submit" value="Register" onclick="return register()"></li>
+           
+
+        </pre>
+     </ul>
+     </form>
+    </div>
+
+    <div id ="parent-right" class="body_right">
+    <h1 class ="body_left_h">Dashboard</h1>
+
+    </div>
+
+</div>
+
+
+<footer>
+  
+
+
+ <div class="footer">
+  
+    <ul class="footer_ul_left">
+        <li><img width="25px"  height= "25px" src = "logos/appfooter.png"></li>
+        <li>  © Powered by AppDirect 2009-2017</li>
+    </ul>
+
+   <ul class="footer_ul_right">
+
+        <li class="dropbtn" onclick="mydropdownlanguage()">English</li>
+        <li id="droplist2" class="dropdown-content">
+                <a href="#">Hindi</a>
+                <a href="#">Punjabi</a>
+                <a href="#">Marathi</a>
+         </li>       
+        <li>Help Centre</li>
+        <li>Privacy Policy</li>
+        <li>Term and Conditions</li>
+        <li>Contact</li>
+        
+    </ul>
+
+
+  </div>
+
+
+</footer>
+  </body>
+</html>
