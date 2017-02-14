@@ -1,7 +1,5 @@
 function register() {
 
-
-
 	var firstname = document.forms["Registration_Form"]["firstname"].value;
 	var lastname = document.forms["Registration_Form"]["lastname"].value;
 	var paddress = document.forms["Registration_Form"]["paddress"].value;
@@ -150,8 +148,6 @@ window.onload = function() {
 	}
 
 }
-
-
 
 function mydropdownlanguage() {
 	document.getElementById("droplist2").classList.toggle("show");
